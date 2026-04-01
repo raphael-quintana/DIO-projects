@@ -9,7 +9,6 @@
 while True:
     nomeHeroi = input("Qual o nome do seu herói? (ou 'sair' para encerrrar)\n")
     if nomeHeroi.lower() == "sair":
-
         break
 
 #Definindo variavel nivelXP e nivelHeroi que está vazia, e só será preenchida
