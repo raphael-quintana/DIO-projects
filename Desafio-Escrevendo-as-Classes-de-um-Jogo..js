@@ -4,8 +4,7 @@ class Hero {
         this.idade = idade
         this.tipo = tipo
         this.ataque = ataque
-
-        
+    
         if (this.tipo == "mago"){
             this.ataque = "magia"
         } else if (this.tipo == "guerreiro"){
@@ -23,6 +22,7 @@ class Hero {
     }
 
 }
+
 
 let doomSlayer = new Hero("Hellwalker", 23, "mago")
 let hideoKojima = new Hero("Solid Snake", 55, "ninja")
